@@ -3,7 +3,7 @@ import { Plant, PlacedPlant, GardenBed } from '../types';
 import { plants } from '../data/plants';
 import { PlantCard } from './PlantCard';
 import { GardenLayout } from './GardenLayout';
-import { MapPin, Sun, Ruler, Clock, Plus, Printer } from 'lucide-react';
+import { Sun, Ruler, Clock, Plus, Printer } from 'lucide-react';
 
 export function GardenPlanner() {
   const [zone, setZone] = useState<number>(5);
